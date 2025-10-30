@@ -1,0 +1,17 @@
+{
+  "text.config.pways.section.programs": "Programs",
+  "text.config.pways.option.pathToAseprite": "Image editor path",
+  "text.config.pways.option.pathToAseprite.tooltip": "Absolute path to your image editor (aseprite or gimp are recommended)",
+  "text.config.pways.option.pathToBlockbench": "Blockbench path",
+  "text.config.pways.option.pathToBlockbench.tooltip": "Absolute path to your blockbench",
+  "text.config.pways.section.other": "Other options",
+  "text.config.pways.option.alwaysRewrite": "Always rewrite",
+  "text.config.pways.option.alwaysRewrite.tooltip": "Should rewrite assets for the mod if they already exist?",
+  "item.pways.model_brush": "Model Brush",
+  "item.pways.texture_brush": "Texture Brush",
+  "msg.pways.assets_not_found": "The brush whispers to you that it has found nothing",
+  "msg.pways.program_is_empty": "The brush whispers to you that your program is not specified. Look in the mod config",
+  "msg.pways.program_not_found": "The brush whispers to you that your program was not found. Look in the mod config",
+  "msg.pways.process_error": "The brush whispers to you that something has gone wrong. More details in the logs",
+  "msg.pways.vanilla_download_fail": "The brush whispers to you that it has failed to download vanilla assets. More details in the logs"
+}

@@ -1,0 +1,17 @@
+{
+  "text.config.pways.section.programs": "Программы",
+  "text.config.pways.option.pathToAseprite": "Путь к редактору изображений",
+  "text.config.pways.option.pathToAseprite.tooltip": "Полный путь к вашему редактору изображений (aseprite или gimp рекомендованы)",
+  "text.config.pways.option.pathToBlockbench": "Путь к blockbench",
+  "text.config.pways.option.pathToBlockbench.tooltip": "Полный путь к вашему blockbench",
+  "text.config.pways.section.other": "Другие настройки",
+  "text.config.pways.option.alwaysRewrite": "Всегда перезаписывать",
+  "text.config.pways.option.alwaysRewrite.tooltip": "Нужно ли перезаписывать ассеты для мода если они уже существуют?",
+  "item.pways.model_brush": "Модельная кисточка",
+  "item.pways.texture_brush": "Текстурная кисточка",
+  "msg.pways.assets_not_found": "Кисточка шепчет вам, что она ничего не нашла",
+  "msg.pways.program_is_empty": "Кисточка шепчет вам, что ваша программа не указана. Зайдите в конфиг мода",
+  "msg.pways.program_not_found": "Кисточка шепчет вам, что ваша программа не была найдена. Зайдите в конфиг мода",
+  "msg.pways.process_error": "Кисточка шепчет вам, что что-то пошло не так. Подробнее в логах",
+  "msg.pways.vanilla_download_fail": "Кисточка шепчет вам, что у неё не получилось скачать ванильные ассеты. Подробнее в логах"
+}

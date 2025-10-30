@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "pways",
+	"version": "${version}",
+	"name": "Paint the world as you see",
+	"description": "The mod adds two brushes: one for textures and one for models. Clicking on a block or an item in your left hand opens the editor specified in the config (for example, blockbench and aseprite). The opened texture or model is transferred to an automatic resource pack called __repainted__. Enjoy the convenience!",
+	"authors": [
+		"Aros"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/pways/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+           "net.aros.pways.Pways"
+		],
+        "client": [
+            "net.aros.pways.client.PwaysClient"
+        ]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
