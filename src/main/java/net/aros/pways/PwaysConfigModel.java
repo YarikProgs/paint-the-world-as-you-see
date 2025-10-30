@@ -8,7 +8,7 @@ import io.wispforest.owo.config.annotation.SectionHeader;
 @Config(name = Pways.MOD_ID, wrapperName = "PwaysConfig")
 public class PwaysConfigModel {
     @SectionHeader("programs")
-    public String pathToAseprite = "";
+    public String pathToImageEditor = "";
     public String pathToBlockbench = "";
 
     @SectionHeader("other")

@@ -1,8 +1,8 @@
 {
   "text.config.pways.section.programs": "Programs",
-  "text.config.pways.option.pathToAseprite": "Image editor path",
-  "text.config.pways.option.pathToAseprite.tooltip": "Absolute path to your image editor (aseprite or gimp are recommended)",
-  "text.config.pways.option.pathToBlockbench": "Blockbench path",
+  "text.config.pways.option.pathToImageEditor": "Path to image editor",
+  "text.config.pways.option.pathToImageEditor.tooltip": "Absolute path to your image editor (aseprite or gimp are recommended)",
+  "text.config.pways.option.pathToBlockbench": "Path to Blockbench",
   "text.config.pways.option.pathToBlockbench.tooltip": "Absolute path to your blockbench",
   "text.config.pways.section.other": "Other options",
   "text.config.pways.option.alwaysRewrite": "Always rewrite",

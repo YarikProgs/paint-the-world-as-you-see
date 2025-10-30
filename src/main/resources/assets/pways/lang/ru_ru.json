@@ -1,7 +1,7 @@
 {
   "text.config.pways.section.programs": "Программы",
-  "text.config.pways.option.pathToAseprite": "Путь к редактору изображений",
-  "text.config.pways.option.pathToAseprite.tooltip": "Полный путь к вашему редактору изображений (aseprite или gimp рекомендованы)",
+  "text.config.pways.option.pathToImageEditor": "Путь к редактору изображений",
+  "text.config.pways.option.pathToImageEditor.tooltip": "Полный путь к вашему редактору изображений (ImageEditor или gimp рекомендованы)",
   "text.config.pways.option.pathToBlockbench": "Путь к blockbench",
   "text.config.pways.option.pathToBlockbench.tooltip": "Полный путь к вашему blockbench",
   "text.config.pways.section.other": "Другие настройки",

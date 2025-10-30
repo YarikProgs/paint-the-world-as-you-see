@@ -13,6 +13,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.NotNull;
 
 public class BrushItem extends Item {
     private final boolean opensTexture;
@@ -23,7 +24,7 @@ public class BrushItem extends Item {
     }
 
     @Override
-    public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
+    public TypedActionResult<ItemStack> use(World world, @NotNull PlayerEntity user, Hand hand) {
         if (user.isSneaking()) {
             System.out.println(FabricLoader.getInstance().getRawGameVersion());
             return super.use(world, user, hand);
@@ -38,7 +39,7 @@ public class BrushItem extends Item {
     }
 
     @Override
-    public ActionResult useOnBlock(ItemUsageContext context) {
+    public ActionResult useOnBlock(@NotNull ItemUsageContext context) {
         if (context.getPlayer() instanceof ServerPlayerEntity serverPlayer) {
             Block block = context.getWorld().getBlockState(context.getBlockPos()).getBlock();
             OpenPayload.of(block, opensTexture).send(serverPlayer);
