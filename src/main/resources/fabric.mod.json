@@ -8,8 +8,9 @@
 		"Aros"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/YarikProgs",
+		"sources": "https://github.com/YarikProgs/paint-the-world-as-you-see",
+        "issues": "https://github.com/YarikProgs/paint-the-world-as-you-see/issues"
 	},
 	"license": "All Rights Reserved",
 	"icon": "assets/pways/icon.png",
@@ -28,9 +29,7 @@
 		"fabricloader": ">=0.17.3",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabric-api": "*",
+        "owo": ">=0.12.15"
 	}
 }
