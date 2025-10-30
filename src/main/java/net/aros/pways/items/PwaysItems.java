@@ -9,13 +9,14 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 import static net.aros.pways.Pways.MOD_ID;
+import static net.aros.pways.Pways.NAME;
 
 public class PwaysItems {
     public static final Item TEXTURE_BRUSH = register("texture_brush", new BrushItem(true));
     public static final Item MODEL_BRUSH = register("model_brush", new BrushItem(false));
-    public static final ItemGroup PWAYS_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of("pways", "pways"),
+    public static final ItemGroup PWAYS_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(MOD_ID, MOD_ID),
             FabricItemGroup.builder()
-                    .displayName(Text.literal("Paint the world as you see"))
+                    .displayName(Text.literal(NAME))
                     .entries((displayContext, entries) -> {
                         entries.add(TEXTURE_BRUSH.asItem());
                         entries.add(MODEL_BRUSH.asItem());

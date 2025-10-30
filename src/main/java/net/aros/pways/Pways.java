@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 public class Pways implements ModInitializer {
     public static final String MOD_ID = "pways";
+    public static final String NAME = "Paint the world as you see";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     public static final net.aros.pways.PwaysConfig CONFIG = net.aros.pways.PwaysConfig.createAndLoad();
